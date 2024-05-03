@@ -85,7 +85,7 @@ p, h1, h2, h3, h4{
     margin-top: 120px;
     height: 1004px;  /* REQUISITO */
     justify-content: center;
-    background-image: url("/img/13184292_5161886.jpg");
+    background-image: url("../img/13184292_5161886.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
