@@ -1,0 +1,174 @@
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: white;
+    margin: 6px;
+}
+
+/* ESTILOS PARA CABECERA */
+#cajaCabecera{
+    width: 100%;
+    border-bottom: solid 3px white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, #26003a 0%, rgb(49, 0, 76) 27%, #ea00ff 100%);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+#cabecera{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+}
+
+#logo{
+    width: 20%;
+    padding: 6px 0;
+    justify-content: end;
+}
+
+/* MENU */
+
+.menu{
+ width: 80%;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ .menu a{
+    display: block;
+    line-height: 87px;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;   /* REQUISITO */
+    font-size: 40px;
+ }
+
+ .menu a i{
+    font-size: 40px;
+    padding-right: 10px;
+ }
+
+ .menu a:hover{
+    color: #6495ed;
+    border-bottom: 2px solid #6495ed ;
+ }
+
+ /* ESTILO DE BANNER */
+
+.banner{
+    margin-top: 120px;
+    height: 1004px;  /* REQUISITO */
+    justify-content: center;
+    background-image: url("/img/13184292_5161886.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* ESTILO PARA INICIO, CALENDARIO, ARTICULOS Y MAS */
+.inicio{
+    width: 100%;
+    height: 920px; /* REQUISITO */
+    padding: 4em;
+    background-color: rgb(232, 232, 239);
+    display: flex;
+    justify-content: center;
+}
+
+.inicio h1, .calendario h1, .articulos h1, .mas h1{
+    font-family: "Anton", sans-serif;
+    background: linear-gradient(90deg, #26003a 0%, rgb(49, 0, 76) 17%, #ea00ff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+.calendario{
+    width: 100%;
+    height: 920px; /* REQUISITO */
+    padding: 4em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.calendario img, .mas img{
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+}
+
+.articulos{
+    width: 100%;
+    height: 920px; /* REQUISITO */
+    padding: 4em;
+    background-color: rgb(232, 232, 239);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.articulos img{
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+}
+
+.mas{
+    width: 100%;
+    height: 920px; /* REQUISITO */
+    padding: 4em;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* ESTILO DE FOOTER */
+
+.cajonFooter{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 175px;
+    background-color: #5b0074;
+}
+
+.cajonFooter h1{
+    margin-left: 30px;
+    padding-right: 400px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
+
+.cajonFooter i{
+    font-size: 50px;
+    padding-right: 40px;
+    color: #ff00fb;
+}
